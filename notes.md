@@ -10,5 +10,11 @@
    - `s`: in this mode, `.` can match `\n`
    - `u`: full Unicode support
    - `y`: stickY mode. It searches at exact positions of a string. 
-  
-2. ads
+
+2. what does anRegEX.matchAll(aString) return ???
+   
+   First, if `matchAll` is called on a regex with `g` flag, an error will be thrown.
+
+   Second, if we print its result directly, there will be nothing readable. One way to get a readable result is to print `[...aString.matchAll(anRegEx)]`. It's an array, with the first matching char, the input, the index of first matching char etc etc.
+   
+3. sdf
