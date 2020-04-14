@@ -92,9 +92,3 @@ console.log(exec4);
 
 // note how replace and match are string method
 // and that test is a regEx method
-
-
-
-
-
-
